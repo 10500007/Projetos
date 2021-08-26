@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    font-size: 15px;
+    margin-top: 155px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.item_sel a{
+    color: red;
+}
