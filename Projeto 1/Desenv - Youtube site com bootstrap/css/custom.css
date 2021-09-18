@@ -31,11 +31,19 @@ html {
 }
 
 
-.btn{
-    background-color: rgb(85, 24, 24);
-}
+
+
 
 #slider{
-    background: url(../img/slider-bg.svg);
-    background-size: cover;
+    background: url(../img/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
 }

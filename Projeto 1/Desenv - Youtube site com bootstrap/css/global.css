@@ -1,0 +1,25 @@
+.button-saiba, .button-contato{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+.button-saiba{
+    background-color: var(--primary);
+    border: 1px solid transparent;    
+}
+.button-saiba:hover{
+    background-color: var(--primary-dark);
+    border: 1px solid transparent;
+}
+
+.button-contato{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.button-contato:hover{
+    background:var(--primary);
+   
+    border-color: var(--primary);
+}
+
