@@ -9,3 +9,12 @@
        
     }
 }
+
+@media(max-width:767px){
+   
+    .button-saiba, .button-contato{
+        width: 85%;
+        margin: 0px auto 5px auto;
+        
+    }
+}
