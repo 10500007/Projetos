@@ -31,3 +31,11 @@ html {
 }
 
 
+.btn{
+    background-color: rgb(85, 24, 24);
+}
+
+#slider{
+    background: url(../img/slider-bg.svg);
+    background-size: cover;
+}
