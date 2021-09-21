@@ -18,3 +18,15 @@
         
     }
 }
+
+@media(max-width: 700px){
+    .caixa-destaque{
+        max-width:80%;
+    }
+    .container-img{
+        height: 120px;
+    }
+    .container-img img{
+        height: 120px;
+    }
+}
