@@ -8,7 +8,14 @@ html {
    width: 100%;
    background-color: transparent;
    transition: all .5s ease-in-out ;
- 
+  
+}
+
+#header.active{
+    position: fixed;
+    background-color: #fff;
+    z-index: 5;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
 }
 
 .nav-link{
@@ -29,9 +36,6 @@ html {
     border-bottom: 1px solid var(--secondary);
     transition: all .3s ease-in-out;  
 }
-
-
-
 
 
 #slider{
