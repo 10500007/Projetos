@@ -8,15 +8,13 @@
         transform: scale(1);   
        
     }
-}
-
-@media (max-width:975px){
     #header.active{
         position: static;
         box-shadow: none;
     }
-
 }
+
+
 
 @media(max-width:767px){
    
