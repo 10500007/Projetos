@@ -36,3 +36,17 @@
         height: 120px;
     }
 }
+
+@media(max-width: 450px){
+    #clientes .cliente-texto{
+        margin: auto;
+        text-align: center;
+    }
+    #clientes .cliente-texto .imagem{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
