@@ -127,3 +127,25 @@ html {
     box-shadow: 0 0 15px 0 #000;
     transition: all .5s ease-in-out;
 }
+
+#clientes .cliente-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--light);
+    border-radius: 5px;
+}
+.cliente-texto .imagem{
+    display: flex;
+    margin-left: -70px;
+    font-size: 24px;
+    line-height: 26px;
+    align-items: center;
+}
+
+.imagem span{
+    display: flex;
+   font-size: 60px;
+   line-height: 60px;
+}
