@@ -1,13 +1,13 @@
 jQuery(document).ready(function($){
 
     window.onscroll = function(){
-        if(window.pageYOffset > 100){
+        if(window.pageYOffset > 1){
             $('#header').addClass("active");
         }else{
             $('#header').removeClass("active");
         }
     }
-})
+});
 
 var btn = $('#servicos .button-group button');
 
@@ -18,13 +18,13 @@ btn.click(function (e){
     const selector = $(e.target).attr("data-filter");
     $('#servicos .grid').isotope({
         filter: selector
-    })
+    });
 
-})
+});
 
-$(window).on("load", function(){
+$(window).on("load", function(e){
     $('#servicos .grid').isotope({
         filter: "*",
-    })
-})
+    });
+});
 
