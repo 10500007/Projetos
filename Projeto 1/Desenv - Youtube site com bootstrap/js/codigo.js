@@ -15,7 +15,16 @@ btn.click(function (e){
     $('#servicos .button-group button').removeClass('active');
     e.target.classList.add('active');
 
+    const selector = $(e.target).attr("data-filter");
+    $('#servicos .grid').isotope({
+        filter: selector
+    })
+
 })
 
-var select = $(e.target).attr("data-filter");
-$("servicos .grid")
+$(window).on("load", function(){
+    $('#servicos .grid').isotope({
+        filter: "*",
+    })
+})
+
