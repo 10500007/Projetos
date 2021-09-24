@@ -28,3 +28,36 @@ $(window).on("load", function(e){
     });
 });
 
+
+
+
+
+
+/*
+var btn_img = $('#servicos .grid .element-item .popup-link');
+
+    btn_img.click(function(t){
+
+        $('#servicos .grid .element-item .popup-link').magnificPopup({
+            type: 'image'
+            // other options
+    });
+
+  });
+
+  */
+
+  $('#servicos .grid .element-item .popup-link').magnificPopup({
+    type: 'image',
+    // other options
+    //disableOn: 400,
+    //key: 'some-key',
+
+  gallery: {
+    // options for gallery
+    enabled: true
+  }
+  
+
+
+  });
