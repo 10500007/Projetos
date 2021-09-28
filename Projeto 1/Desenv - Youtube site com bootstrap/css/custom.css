@@ -221,13 +221,14 @@ html {
     background-color: var(--light);
     padding: 10px;
     border-radius: 5px;
-    height: 170px;
-}
-
-.depoimentos .imagem{
-    height: 100%;
+    align-items: center;
+    display: flex;
 }
 
 
+.nome span{
+    color: #000;
+    font-weight: 700;
+}
 
 
