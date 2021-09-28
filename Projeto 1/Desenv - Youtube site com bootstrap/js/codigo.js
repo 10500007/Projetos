@@ -7,6 +7,13 @@ jQuery(document).ready(function($){
             $('#header').removeClass("active");
         }
     }
+
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        
+    })
+
 });
 
 var btn = $('#servicos .button-group button');
@@ -63,23 +70,3 @@ var btn_img = $('#servicos .grid .element-item .popup-link');
   });
 
 
-  $(document).ready(function(){
-
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-
-  )}
