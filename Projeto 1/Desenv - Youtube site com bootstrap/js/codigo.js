@@ -9,13 +9,7 @@ jQuery(document).ready(function($){
     }
 
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true
-    
-        
-    })
+  
 
 });
 
@@ -68,8 +62,29 @@ var btn_img = $('#servicos .grid .element-item .popup-link');
     enabled: true
   }
   
-
-
   });
 
 
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:30,
+        nav:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:2,
+                nav:true,
+                loop:false
+            }
+        }
+  });    
+});
