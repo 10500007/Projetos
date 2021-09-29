@@ -33,3 +33,8 @@ a{
 .block{
     margin-bottom: 120px;
 }
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: var(--primary);
+} 

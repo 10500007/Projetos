@@ -223,8 +223,24 @@ html {
     border-radius: 5px;
     align-items: center;
     display: flex;
-    
+    font-size: 13px;
 }
+
+.depoimentos img{
+    max-height: 140px;
+    max-width: 140px;
+}
+.depoimento-texto {
+    max-width: 70%;
+    /*
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    */
+}
+
+
+
 
 
 .nome span{
@@ -232,9 +248,3 @@ html {
     font-weight: 700;
 }
 
-.aspas{
-    display: inline-block;
-    max-width: 50px;
-    max-height: 50px;
-    margin: auto;
-}
